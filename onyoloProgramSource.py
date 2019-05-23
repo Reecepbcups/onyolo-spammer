@@ -41,25 +41,3 @@ for iteration in range(int(numOfTimes)):
 
 print("All messages have been sent... Closing in 10 seconds")
 time.sleep(5)
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
