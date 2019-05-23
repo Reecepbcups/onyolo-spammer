@@ -40,4 +40,4 @@ for iteration in range(int(numOfTimes)):
     print(f"Message #{str(iteration+1)} sent")
 
 print("All messages have been sent... Closing in 10 seconds")
-time.sleep(5)
+time.sleep(10)
