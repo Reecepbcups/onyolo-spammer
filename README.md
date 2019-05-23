@@ -1,2 +1,1 @@
 # YoloSpam
-by Reecepbcups
