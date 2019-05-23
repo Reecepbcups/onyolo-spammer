@@ -1,6 +1,6 @@
 # Reecepbcups#3370 - May/23/19
 # onyolo snapchat 3rd party spambot
-import requests, json
+import requests, json, time
 import string, random
 
 print('''              _                                 
@@ -39,6 +39,8 @@ for iteration in range(int(numOfTimes)):
     r = requests.post(f"http://onyolo.com/{convoLinkID}/message", data=json.dumps(payload), headers=headers)
     print(f"Message #{str(iteration+1)} sent")
 
+print("All messages have been sent... Closing in 10 seconds")
+time.sleep(5)
 
 
 
