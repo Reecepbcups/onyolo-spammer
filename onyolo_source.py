@@ -33,7 +33,7 @@ headers = {
 }
 
 # Don't touch the payload
-payload = {"text":f"{usermessage}","cookie":f"{newCookie()}"} 
+payload = {"text":f"{usermessage}","cookie":f"{newCookie()}", "wording":"abcde"} 
 
 for iteration in range(int(numOfTimes)):
     r = requests.post(f"http://onyolo.com/{convoLinkID}/message", data=json.dumps(payload), headers=headers)
